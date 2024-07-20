@@ -7,7 +7,8 @@ a {
   display: block;
   overflow: scroll;
   max-height: 100vh;
-  background-color: #0b1c2f;
+  /* background-color: #0b1c2f; */
+  background-color: #ebeaec;
   font-family: Inter, sans-serif;
 }
 
@@ -153,7 +154,7 @@ a {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  background-image: url('../images/split.jpg');
+  background-image: url('../images/240127_F_KRUKPORTRAIT2114_1.jpg');
   background-position: 50% 50%;
   background-size: cover;
   -o-object-fit: cover;
@@ -238,4 +239,3 @@ a {
     max-height: 30vh;
   }
 }
-
