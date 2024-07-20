@@ -134,7 +134,8 @@ a {
 }
 
 .bio-links {
-  border-bottom: 1px solid #848d96;
+  /* border-bottom: 1px solid #848d96; */
+  border-bottom: 1px solid #666369;
   text-decoration: none;
 }
 
