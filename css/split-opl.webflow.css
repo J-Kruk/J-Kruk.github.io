@@ -38,7 +38,7 @@ a {
 
 .name {
   margin-bottom: 40px;
-  color: #4d474e;
+  color: #9137A9;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 1px;
@@ -61,13 +61,14 @@ a {
   font-family: Lora, sans-serif;
   /* color: #848d96; */
   color: #757179;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 140%;
 }
 
 .text-block-2 {
   margin-bottom: 20px;
-  color: #485462;
+  /* color: #485462; */
+  color: #007ACC;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
@@ -76,7 +77,7 @@ a {
 
 .list {
   font-family: Lora, sans-serif;
-  color: #848d96;
+  color: #757179;
   font-size: 16px;
   line-height: 160%;
 }
