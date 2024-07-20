@@ -38,7 +38,7 @@ a {
 
 .name {
   margin-bottom: 40px;
-  color: #47bec7;
+  color: #4d474e;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 1px;
@@ -51,7 +51,7 @@ a {
 
 .tagline {
   margin-bottom: 40px;
-  color: #ddd;
+  color: #170d21;
   font-size: 58px;
   line-height: 100%;
 }
@@ -59,7 +59,8 @@ a {
 .bio {
   margin-bottom: 40px;
   font-family: Lora, sans-serif;
-  color: #848d96;
+  /* color: #848d96; */
+  color: #757179;
   font-size: 21px;
   line-height: 140%;
 }
