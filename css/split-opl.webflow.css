@@ -1,0 +1,312 @@
+a {
+  color: #848d96;
+  text-decoration: none;
+}
+
+.body {
+  display: block;
+  overflow: scroll;
+  max-height: 100vh;
+  /* background-color: #0b1c2f; */
+  background-color: #ebeaec;
+  /* background-color: white; */
+  font-family: Inter, sans-serif;
+}
+
+.leftcontent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.columns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  max-height: 100vh;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.name {
+  margin-bottom: 40px;
+  color: #9137A9;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.tagline {
+  margin-bottom: 40px;
+  color: #170d21;
+  font-size: 58px;
+  line-height: 100%;
+}
+
+.bio {
+  margin-bottom: 40px;
+  font-family: Lora, sans-serif;
+  /* color: #848d96; */
+  color: #757179;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.bio-small {
+  margin-bottom: 40px;
+  font-family: Lora, sans-serif;
+  /* color: #848d96; */
+  color: #757179;
+  font-size: 14px;
+  line-height: 130%;
+  font-style: italic;
+}
+
+.text-block-2 {
+  margin-bottom: 20px;
+  /* color: #485462; */
+  color: #007ACC;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.list {
+  font-family: Lora, sans-serif;
+  color: #757179;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.descrip {
+  font-family: Lora, sans-serif;
+  color: #757179;
+  font-size: 14px;
+  line-height: 130%;
+}
+
+.project-tagline {
+  margin-bottom: 40px;
+  color: #170d21;
+  font-size: 38px;
+  line-height: 100%;
+}
+
+.project-title {
+  margin-bottom: 10px;
+  color: #170d21;
+  font-size: 18px;
+  line-height: 110%;
+}
+
+.conference_text {
+  /* margin-bottom: 10px; */
+  color: #007ACC;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.project-button-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  /* background-color: #f9f9f9; */
+  /* border-top: 1px solid #ddd; */
+}
+
+.project-button {
+  text-decoration: none;
+  padding: 4px 10px;
+  background-color: #007ACC;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+  background-color: #0056b3;
+}
+
+.credit {
+  color: #485462;
+  font-size: 13px;
+}
+
+.rightcontent {
+  overflow: auto;
+  padding: 120px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.content {
+  overflow: auto;
+}
+
+.links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100%;
+  margin-bottom: 30px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.bio-links {
+  /* border-bottom: 1px solid #848d96; */
+  border-bottom: 1px solid #666369;
+  text-decoration: none;
+}
+
+.credit-links {
+  color: #485462;
+}
+
+.image {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  display: block;
+  min-height: 100vh;
+  min-width: 100%;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  background-image: url('https://jkruk-website.s3.us-east-1.amazonaws.com/images/240127_F_KRUKPORTRAIT2114_1_wide.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 991px) {
+  .leftcontent {
+    display: block;
+    -o-object-position: 50% 0%;
+    object-position: 50% 0%;
+  }
+
+  .columns {
+    display: block;
+  }
+
+  .rightcontent {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .links {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .column {
+    margin-bottom: 20px;
+  }
+
+  .column-2 {
+    margin-bottom: 20px;
+  }
+
+  .image {
+    position: static;
+    height: 420px;
+    max-height: 50vh;
+    min-height: auto;
+    background-position: 50% 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .name {
+    margin-bottom: 20px;
+  }
+
+  .rightcontent {
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .bold-text {
+    font-size: 42px;
+    line-height: 42px;
+  }
+
+  .bio {
+    font-size: 16px;
+  }
+
+  .credit {
+    font-size: 12px;
+  }
+
+  .rightcontent {
+    padding: 30px;
+  }
+
+  .image {
+    height: 240px;
+    max-height: 30vh;
+  }
+}
